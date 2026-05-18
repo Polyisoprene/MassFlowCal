@@ -95,7 +95,7 @@ pub struct FeedParams {
 }
 
 /// 流量基准枚举
-#[derive(Debug, Clone, Serialize, Deserialize)]
+#[derive(Debug, Clone, PartialEq, Serialize, Deserialize)]
 #[serde(rename_all = "snake_case")]
 pub enum FlowBasis {
     Mass,   // kg/h
@@ -139,7 +139,7 @@ pub struct SeparatorParams {
     pub split_mode: SplitMode,
 }
 
-#[derive(Debug, Clone, Serialize, Deserialize)]
+#[derive(Debug, Clone, PartialEq, Serialize, Deserialize)]
 #[serde(rename_all = "snake_case")]
 pub enum SeparatorKind {
     GasLiquid,  // 气液分离

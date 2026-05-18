@@ -39,7 +39,13 @@
       "Bash(cargo update *)",
       "Bash(tee /e/Code/Rust/MassFlowCal/backend/debug.log)",
       "Bash(git init *)",
-      "Bash(git add *)"
+      "Bash(git add *)",
+      "Bash(git rm *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git config *)",
+      "Bash(gh auth *)",
+      "Bash(gh repo *)",
+      "Bash(git commit *)"
     ]
   }
 }

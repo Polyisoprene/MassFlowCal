@@ -1,0 +1,10 @@
+[package]
+name = "mfc-engine"
+version = "0.1.0"
+edition = "2021"
+description = "MassFlowCal computation engine"
+
+[dependencies]
+mfc-core = { path = "../mfc-core" }
+petgraph = "0.7"
+uuid = { version = "1", features = ["v4"] }

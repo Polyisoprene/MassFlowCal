@@ -1,0 +1,25 @@
+[package]
+edition = "2024"
+rust-version = "1.88"
+name = "egui-ariel"
+version = "0.1.0"
+description = "Node-graphs for egui with wire context menu support (fork of egui-snarl)"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/zakarumych/egui-snarl"
+
+[features]
+default = ["egui-probe"]
+serde = ["dep:serde", "egui/serde", "slab/serde"]
+egui-probe = ["dep:egui-probe"]
+
+[lib]
+name = "egui_ariel"
+path = "src/lib.rs"
+
+[dependencies]
+egui = "0.33"
+egui-scale = "0.3"
+slab = "0.4"
+smallvec = { version = "1.15", features = ["const_new"] }
+serde = { version = "1", features = ["derive"], optional = true }
+egui-probe = { version = "0.10", features = ["derive"], optional = true }

@@ -1,0 +1,10 @@
+[package]
+name = "mfc-core"
+version = "0.1.0"
+edition = "2021"
+description = "MassFlowCal core domain models and traits"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+uuid = { version = "1", features = ["v4", "serde"] }
+thiserror = "2"

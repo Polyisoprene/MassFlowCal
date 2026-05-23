@@ -1,0 +1,8 @@
+[workspace]
+members = [
+    "crates/mfc-core",
+    "crates/mfc-engine",
+    "crates/mfc-persistence",
+    "crates/mfc-gui",
+]
+resolver = "2"

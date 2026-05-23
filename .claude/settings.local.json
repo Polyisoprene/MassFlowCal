@@ -45,7 +45,23 @@
       "Bash(git config *)",
       "Bash(gh auth *)",
       "Bash(gh repo *)",
-      "Bash(git commit *)"
+      "Bash(git commit *)",
+      "Bash(git remote *)",
+      "Bash(git push *)",
+      "Bash(npx skills@latest *)",
+      "Bash(rm -rf .agents/skills/)",
+      "Bash(rmdir .agents/)",
+      "Bash(taskkill /F /IM massflowcal.exe)",
+      "Bash(cargo check *)",
+      "Bash(cargo test *)",
+      "Bash(cat)",
+      "Bash(python /tmp/wire_fix.py)",
+      "Bash(grep -n \"fn wire_rename_dialog\\\\|^}$\" E:/Code/Rust/MassFlowCal/backend/crates/mfc-gui/src/app.rs)",
+      "Bash(mkdir -p /tmp/egui-snarl-src)",
+      "Bash(tar xzf *)",
+      "Read(//tmp/egui-snarl-src/egui-snarl-0.9.0/**)",
+      "Bash(cp -r /tmp/egui-snarl-src/egui-snarl-0.9.0/src/* E:/Code/Rust/MassFlowCal/egui-ariel/src/)",
+      "Bash(cp /tmp/egui-snarl-src/egui-snarl-0.9.0/Cargo.toml E:/Code/Rust/MassFlowCal/egui-ariel/Cargo.toml.orig)"
     ]
   }
 }

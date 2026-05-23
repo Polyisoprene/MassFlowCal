@@ -1,3 +1,5 @@
 /target/
 *.db
 *.log
+egui-ariel/target/
+skills-lock.json

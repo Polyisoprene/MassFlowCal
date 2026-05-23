@@ -1,3 +1,4 @@
+#![windows_subsystem = "windows"]
 //! MassFlowCal Desktop Application
 //!
 //! 入口点：初始化日志、数据库、GUI 窗口，启动 egui 事件循环。
